@@ -12,6 +12,6 @@ describe("server.js", () => {
     it("Responds when adding hex code to the url", async () => {
         const res = await request(app).get("/802E11");
         expect(res.status).to.equal(200);
-        expect(res.body).to.deep.equal({r: 128, g: 46, b: 17})
+        expect(res.body).to.deep.equal({r: 128, g: 46, b: 17});
     });
 });

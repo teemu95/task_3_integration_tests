@@ -1,7 +1,7 @@
-const express = require('express')
-const { hexToRgb } = require('./hex_converter')
-const app = express()
-const port = 3000
+const express = require('express');
+const { hexToRgb } = require('./hex_converter');
+const app = express();
+const port = 3000;
 
 /**
  * GET /:hex
