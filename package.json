@@ -1,0 +1,17 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "mocha -R nyan \"test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "chai-http": "^5.1.2",
+    "mocha": "^11.7.3"
+  }
+}
