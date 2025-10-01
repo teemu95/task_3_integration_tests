@@ -1,12 +1,9 @@
 const request = require('supertest');
 const expect = require('chai').expect;
-
 const app = require('../src/server');
 process.env.NODE_ENV = "test";
 
-
 //Integration tests for server
-
 
 describe("server.js", () => {
     it("Responds when adding hex code to the url", async () => {

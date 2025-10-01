@@ -1,9 +1,7 @@
 const { expect } = require('chai');
 const { hexToRgb } = require('../src/hex_converter');
 
-
 //Unit tests for hex_converter.
-
 
 describe("hex_converter.js", () => {
     it("Should throw an error when there are numbers in parameters", () => {

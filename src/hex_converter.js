@@ -5,6 +5,7 @@
  * @returns {{r: number, g: number, b: number}} - Red/Green/Blue components (0-255).
  * @throws {Error} If the input isn't a valid 3- or 6-digit hex color or a string.
  */
+
 function hexToRgb(hex) {
     if (typeof hex !== "string") throw new Error("Color must be a string");
     const short = /^[0-9a-f]{3}$/i;
